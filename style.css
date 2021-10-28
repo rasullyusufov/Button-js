@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+header{
+    padding: 50px 10px;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+
+}
+
+.btn1_container,
+.btn2_container, 
+.btn3_container,
+.btn4_container,
+.btn5_container{
+    width: 150px;
+    height: 56px;
+    background-color: black;
+    display: flex;
+    position: relative;
+    border: 3px solid #111;
+    margin-right: 20px;
+    box-shadow: -1px 3px 22px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+  }
+
+
+.two {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-color: grey;
+    display: block;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  }
+  .three {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-color: grey;
+    display: block;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  }
+  .one {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-color: grey;
+    display: block;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  } 
+    .four {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-color: grey;
+    display: block;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  }
+  .five {
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-color: grey;
+    display: block;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+  }
+  .two  {
+    left: 00px;
+  }
+  .three {
+    left: 00px;
+  }
+  .one {
+    left: 00px;
+  }
+  .four{
+      left: 00px;
+  }
+  .five{
+      left: 00px;
+  }
+  .inactive2 {
+    transform: translateX(calc(75px - 6px));
+    border: 2px solid #10d610;
+    background-color: rgba(0, 255, 0, 0.3);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+  }
